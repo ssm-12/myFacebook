@@ -1,7 +1,7 @@
 $(document).ready(
   function(){
     //accessToken can be hardcoded here, Even if you don't provide here it will ask when the page will be loaded
-    var accessToken = 'AACEdEose0cBADZBTUQrIvOpftRZAfqQqQbiZCqtIRDjq3dUgmjQyXWczcRzmGRHjBCUyeXgFzF8yGOcu2uVrSk12MuITB7tb1IElX4ZAES78Jt5WN1ixnmrCmZASQQtt0lZBfqjCo8shlkZBsmi8UPpC2HGskBaDMZB0fmuNByLeeR8agq3xZBgc0qxPbt7e7ZB2egTGLxfTsMwZDZD';
+    var accessToken = '';
     if(accessToken == '')
     {
         $('#myModal').modal('show');
