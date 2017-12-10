@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Facebook</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="myFB.js"></script>
+
+  <link rel="stylesheet" href="myStyle.css">
+
+</head>
+<body background="images/dark_wooden_3.jpg">
+  <!-- <nav id="navBar" class="navbar navbar-inverse navbar-fixed-top">
+    <div id='links' class="container-fluid">
+      <div class="navbar-header">
+        <span><a class="navbar-brand" href="#">MyFacebook</a></span>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="myProfile.html">Profile</a></li>
+        <li class="active"><a id='test' href="#">Feed</a></li>
+      </ul>
+    </div>
+  </nav> -->
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">MyFacebook</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Profile</a></li>
+        <li class="active"><a id='test' href="#">Feed</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Info and Posts Section Starts here-->
+  <div id="divIntro" class='container' style="padding-top: 4em">
+      <div class='row'>
+          <div class='col-xs-12 col-sm-12 col-md-3 col-lg-3 col-md-offset-1 col-lg-offset-1' style="padding-bottom: 1em">
+              <div id='intro' style="display: block;">
+                  <div class='posts'>
+                      <h6><b>MyFacebook Posts</b></h6>
+                      <div id="about" class="well well-sm">
+
+                      </div>
+                  </div>
+                  <br>
+              </div>
+              <div id='friends' style="display: block;">
+
+              </div>
+          </div>
+          <div id="allPosts" class='col-xs-12 col-sm-12 col-md-7 col-lg-7' style="padding:1em; padding-top: 0;">
+
+          </div>
+      </div>
+  </div>
+  <!-- Info and Posts Section Ends here -->
+
+
+  <!-- Modal -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">My Facebook</h4>
+        </div>
+        <div class="modal-body">
+          <p>Please Enter the Access Token: </p>
+          <input type="text" id="txtToken" class="form-control">
+        </div>
+        <div class="modal-footer">
+          <button id="btnClose" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button id="btnSubmit" type="button" class="btn btn-default">Submit</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- Modal Ends Here -->
+</body>
+</html>

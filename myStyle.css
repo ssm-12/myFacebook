@@ -1,0 +1,74 @@
+@media (max-width: 500px) {
+    body{
+      font-size: 10px;
+      padding: 1.5em;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+    body{
+      font-size: 12px;
+      padding: 1.5em;
+    }
+}
+
+@media (min-width: 769px) {
+    body{font-size: 14px;}
+}
+
+h1{
+  font-size: 4em;
+}
+h2{
+  font-size: 3em;
+}
+h3{
+  font-size: 2.5em;
+}
+h4{
+  font-size: 2em;
+}
+h5{
+  font-size: 1.5em;
+  word-wrap: break-word;
+}
+h6{
+  font-size: 1em;
+}
+
+p {
+  margin: 1em;
+}
+
+
+.posts{
+  display: block;
+  background-color: white;
+  padding: 1em;
+  border-radius: 20px 20px 20px 20px;
+}
+
+#imgProfilePic{
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+  padding: auto;
+  /*border: 1em solid white;*/
+  max-height: 350px !important;
+}
+
+#imgCoverPic{
+  margin-left: auto;
+	margin-right: auto;
+  padding: auto;
+	display: block;
+  /*border: 1em solid white;*/
+  max-height: 350px !important;
+}
+
+.picHolder{
+  vertical-align: middle;
+  margin-left: auto;
+	margin-right: auto;
+  display: block;
+}

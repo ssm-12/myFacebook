@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Facebook</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="myFB.js"></script>
+  <style>
+      .posts{
+        display: block;
+        background-color: white;
+        padding: 1em;
+      }
+
+      #coverPhoto{
+        position: relative;
+      }
+
+      #img2 {
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        height: 20vmax;
+        width: 20vmin;
+      }
+
+      #img1 {
+        height: 50vh;
+        width: 60vw;
+      }
+
+      body{
+
+      }
+  </style>
+</head>
+<body background="background.jpg">
+  <nav class="navbar navbar-inverse">
+    <div id='links' class="container-fluid">
+      <div class="navbar-header">
+        <span><img class="image-responsive" src='dp.jpg'><a class="navbar-brand" href="#">MyFacebook</a></span>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Profile</a></li>
+        <li><a id='test' href="#">Feed</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- <div id='coverPhoto' class='container' align='center'>
+      <img class='img-responsive' src='coverPhoto.jpg' id='img1' />
+      <img class='img-responsive' src='profilePhoto.jpg' id='img2' />
+  </div> -->
+
+  <div class='container'>
+      <div class='row'>
+          <div class='col-xs-12 col-sm-12 col-md-3 col-lg-3 col-md-offset-1 col-lg-offset-1' style="background-color: white; padding:1em;">
+              <div id='about' style="display: block; background-color: blue; height: 100px">
+
+              </div>
+              <div id='friends' style="display: block; background-color: yellow; height: 100px;">
+
+              </div>
+          </div>
+          <div class='col-xs-12 col-sm-12 col-md-7 col-lg-7'>
+              <div class='posts'>
+                  <div>
+                      <h2>Souvik Roy - Shared a Memory</h2>
+                      <hr>
+                      <h4>This is the message part</h4>
+                      <br>
+                      <img src='coverPhoto.jpg' class='img-responsive' />
+
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</body>
+</html>
